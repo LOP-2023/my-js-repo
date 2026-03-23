@@ -26,19 +26,18 @@ if (
 let employee = "jammie";
 let salary = 2000000;
 let department = "finance";
-if (employee.length >= 6 && salary.toString() && department > 0) { console.log('Correct: if all are true')
-}
-else{
-    console.log('Wrong: if one or two are false')
+if (employee.length >= 6 && salary.toString() && department > 0) {
+  console.log("Correct: if all are true");
+} else {
+  console.log("Wrong: if one or two are false");
 }
 
-let member = 'jeremie'
-let shipNumber = 34542
-let bookTitle = 'hamlet'
+let member = "jeremie";
+let shipNumber = 34542;
+let bookTitle = "hamlet";
 
-if (member.length>6 && shipNumber.toString. length<4 && bookTitle > 0) {
-    console.log("YEAH: if all are true")
-}
-else{
-    console.log('NOPE: if any is wrong' )
+if (member.length > 6 && shipNumber.toString.length < 4 && bookTitle > 0) {
+  console.log("YEAH: if all are true");
+} else {
+  console.log("NOPE: if any is wrong");
 }
