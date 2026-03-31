@@ -2,7 +2,11 @@ let buyerName = "Jose";
 let amountDue = "12000";
 let itemName = "bricks";
 
-if (buyerName.length >= 2 && amountDue.toString() .length === 5 && itemName.length > 0) {
+if (
+  buyerName.length >= 2 &&
+  amountDue.toString().length === 5 &&
+  itemName.length > 0
+) {
   console.log("Valid: all conditions are met");
 } else {
   console.log("Invalid: one or more conditions failed");
@@ -26,7 +30,7 @@ if (
 let employee = "jammie";
 let salary = 2000000;
 let department = "finance";
-if (employee.length >= 6 && salary.toString() .length ===6 && department > 0) {
+if (employee.length >= 6 && salary.toString().length === 6 && department > 0) {
   console.log("Correct: if all are true");
 } else {
   console.log("Wrong: if one or two are false");
