@@ -21,10 +21,10 @@ console.log(sales);
 //console.log(sales);
 
 let inventory = new Map([
-  ['cement', 100],
-  ['nails', 1000],
-  ['bricks', 3500],
-  ['paint', 40]
+  ["cement", 100],
+  ["nails", 1000],
+  ["bricks", 3500],
+  ["paint", 40],
 ]);
 
 for (const [key, value] of inventory) {
@@ -40,11 +40,9 @@ let records = [
   "Peter",
   "Maria",
   "Meghan",
-
 ];
-records.forEach(name => suppliers.add(name));
+records.forEach((name) => suppliers.add(name));
 
 console.log("Unique suppliers count:", suppliers.size);
 
 console.log("Unique suppliers list:", [...suppliers]);
-

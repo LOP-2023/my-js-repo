@@ -42,3 +42,36 @@ const greet = () => {
   console.log("hello");
 };
 greet()
+
+
+//classes.js
+class Sales{
+    Name= "gero"
+    item= "nails"
+    price= 87000
+    quantity=12
+    tax=0.17
+    isCredit= true
+
+    constructor(Name,item,price,quantity,tax,isCredit){
+        this.Name = Name
+        this.item = item
+        this.price = price
+        this.quantity = quantity
+        this.tax = tax
+        this.isCredit = isCredit
+
+    }
+    calculateTotalCost(){
+        return this.quantity * this.price * (1 + this.tax)
+    }
+    }
+let sales = new Sales("gero", "nails",87000,12,0.18,true)
+let sale = new Sales("jay", "cement", 34000, 13, 0.18, false)
+let SALES = new Sales("cook", "pipes", 23000, 24, 0.15, false)
+console.log(sales)
+console.log(SALES)
+console.log(sale.calculateTotalCost())
+console.log(SALES.calculateTotalCost())
+
+//an instance is when an object came into existance
